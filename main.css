@@ -245,27 +245,34 @@ text-transform: uppercase;
     transform: translateY(-50%); */
  }
  #footer .footer-bottom img{
-    transform: translateY(-22%);
-    top: 50%;
+    transform: translateY(30%);
+    width: 106px;
+    height: 31px;
  }
  #footer .footer-bottom .copyright {
     float: right;
-    transform: translateX(-150%);
+    transform: translateX(-136%  );
     font-weight: bold;
+    font-size: 13px;
+    justify-content: center;
+    padding: 10px 0;
+
  }
  #footer .footer-bottom .contact{
     float: right;
-    transform: translateX(70%);
+    transform: translateX(76%);
     text-align: end;
     text-decoration: none;
     color: #666;
     font-size: 13px;
+    padding: 10px 0;
  }
  #footer .footer-bottom  a{
  color: #666;
  font-size: 13px;
 text-align: end;
 }
-#footer .footer-bottom .contact{
-float:right;
-transform: translateX(82%);}
+#footer .footer-bottom .contact a{
+
+text-decoration: none;
+}
